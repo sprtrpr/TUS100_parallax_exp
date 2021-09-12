@@ -7,37 +7,115 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>TUS100 Footer Graphic Parallax Experiment </title>
+        <title>TUS100 Footer Graphic Parallax Experiment Skrollr</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <script type="text/javascript" src="js/skrollr.min.js"></script>
         <style>
             body {background:#eaeaea;font-family: Arial, Helvetica, sans-serif;}
             div {}
-            #tcontainer {max-width:1200px; margin:auto; height:50vh; min-height:650px; 
-                perspective: 1px;
-                transform-style: preserve-3d; overflow-x: hidden;
-                overflow-y: scroll; background:#bad2ed;}
-            #tomb {position:relative; bottom:-106%; height:320px; z-index:10; background-image:url('images/tomb.svg'); background-position: bottom; background-clip: border-box; background-repeat: no-repeat; background-size:cover;}
-            #grounds {position:relative; top:125%; height:670px; z-index:5; background-image:url('images/grounds.svg'); background-position: center bottom; background-repeat: no-repeat; background-size:cover; transform: translateZ(-1px) scale(2);background-size:cover; left:-4px;}
-            #sky{background-color: #82a9f2; height:300px; width:100%; position:absolute; bottom:-120%; left:0px;  z-index: 1;}
+            #tcontainer {
+                display:block;
+                margin:auto; 
+                height:670px;
+                overflow: hidden; 
+                background-color: #c2cee4;
+               
+            }
+            #tomb {
+                position:relative;
+                top:-38%;
+                left:0%;
+                height:320px; 
+                z-index:10; 
+                background-image:url('images/tomb.svg'); 
+                background-position:center bottom; 
+                background-repeat: no-repeat; 
+                background-size:cover;
+            }
+            #grounds {
+                position:relative;
+                top:100%;
+                left:0%;
+                height:670px; 
+                z-index:5; 
+                background-image:url('images/grounds.svg'); 
+                background-position:center bottom; 
+                background-repeat: no-repeat; 
+                background-size:fit;
+            }
+            #sky {
+                position:relative;
+                top:100%;
+                left:0%;
+                background-color: #82a9f2; 
+                height:300px; 
+                width:100%;
+                z-index: 1;
+            }
         </style>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <h1> TUS100 Footer Parallax Effect Test</h1>
+        <h1> TUS100 Footer Graphic Parallax Experiment Skrollr</h1>
+
+        <p>Lorem ipsum dolor sit amet sodales enim fusce turpis odio faucibus id. Vestibulum auctor ornare dolore tortor congue pellentesque phasellus elementum eros aliqua ut senectus bibendum gravida. Mi non vitae etiam augue condimentum turpis blandit mauris tellus vitae faucibus. Do dapibus nullam lacinia fusce feugiat orci rhoncus netus auctor. Porta morbi semper venenatis consequat nullam semper mattis diam nisi risus.</p>
+
+           <p>< Sed sagittis consequat condimentum vivamus nisl donec integer neque donec elementum faucibus venenatis. Purus platea mattis proin quam duis dolore ullamcorper. Est consequat massa eleifend egestas dapibus curabitur vitae in proin nec pulvinar. Porta vitae eiusmod ac porttitor rhoncus fringilla elit et congue diam dapibus. Posuere netus dictum bibendum do elementum senectus maecenas tincidunt elementum donec consectetur.</p>
+            
+            <p>Nibh phasellus volutpat nec faucibus eget sollicitudin est lobortis cras velit vulputate scelerisque sapien. Libero elementum semper lacinia etiam aliquam proin diam mi massa scelerisque iaculis. Nec justo imperdiet viverra proin sodales semper venenatis interdum et mi. Augue dapibus venenatis adipiscing aliquet sapien auctor nisl tempus. Tempor cursus arcu lacinia consectetur nisl libero sagittis magna sagittis do dictumst diam.</p>
+
+            <p>Lorem ipsum dolor sit amet sodales enim fusce turpis odio faucibus id. Vestibulum auctor ornare dolore tortor congue pellentesque phasellus elementum eros aliqua ut senectus bibendum gravida. Mi non vitae etiam augue condimentum turpis blandit mauris tellus vitae faucibus. Do dapibus nullam lacinia fusce feugiat orci rhoncus netus auctor. Porta morbi semper venenatis consequat nullam semper mattis diam nisi risus.</p>
+
+           <p>< Sed sagittis consequat condimentum vivamus nisl donec integer neque donec elementum faucibus venenatis. Purus platea mattis proin quam duis dolore ullamcorper. Est consequat massa eleifend egestas dapibus curabitur vitae in proin nec pulvinar. Porta vitae eiusmod ac porttitor rhoncus fringilla elit et congue diam dapibus. Posuere netus dictum bibendum do elementum senectus maecenas tincidunt elementum donec consectetur.</p>
+            
+            <p>Nibh phasellus volutpat nec faucibus eget sollicitudin est lobortis cras velit vulputate scelerisque sapien. Libero elementum semper lacinia etiam aliquam proin diam mi massa scelerisque iaculis. Nec justo imperdiet viverra proin sodales semper venenatis interdum et mi. Augue dapibus venenatis adipiscing aliquet sapien auctor nisl tempus. Tempor cursus arcu lacinia consectetur nisl libero sagittis magna sagittis do dictumst diam.</p>
+
+            <p>Lorem ipsum dolor sit amet sodales enim fusce turpis odio faucibus id. Vestibulum auctor ornare dolore tortor congue pellentesque phasellus elementum eros aliqua ut senectus bibendum gravida. Mi non vitae etiam augue condimentum turpis blandit mauris tellus vitae faucibus. Do dapibus nullam lacinia fusce feugiat orci rhoncus netus auctor. Porta morbi semper venenatis consequat nullam semper mattis diam nisi risus.</p>
+
+            <p>< Sed sagittis consequat condimentum vivamus nisl donec integer neque donec elementum faucibus venenatis. Purus platea mattis proin quam duis dolore ullamcorper. Est consequat massa eleifend egestas dapibus curabitur vitae in proin nec pulvinar. Porta vitae eiusmod ac porttitor rhoncus fringilla elit et congue diam dapibus. Posuere netus dictum bibendum do elementum senectus maecenas tincidunt elementum donec consectetur.</p>
+             
+             <p>Nibh phasellus volutpat nec faucibus eget sollicitudin est lobortis cras velit vulputate scelerisque sapien. Libero elementum semper lacinia etiam aliquam proin diam mi massa scelerisque iaculis. Nec justo imperdiet viverra proin sodales semper venenatis interdum et mi. Augue dapibus venenatis adipiscing aliquet sapien auctor nisl tempus. Tempor cursus arcu lacinia consectetur nisl libero sagittis magna sagittis do dictumst diam.</p>
+ 
+             <p>Lorem ipsum dolor sit amet sodales enim fusce turpis odio faucibus id. Vestibulum auctor ornare dolore tortor congue pellentesque phasellus elementum eros aliqua ut senectus bibendum gravida. Mi non vitae etiam augue condimentum turpis blandit mauris tellus vitae faucibus. Do dapibus nullam lacinia fusce feugiat orci rhoncus netus auctor. Porta morbi semper venenatis consequat nullam semper mattis diam nisi risus.</p>
+ 
+            <p>< Sed sagittis consequat condimentum vivamus nisl donec integer neque donec elementum faucibus venenatis. Purus platea mattis proin quam duis dolore ullamcorper. Est consequat massa eleifend egestas dapibus curabitur vitae in proin nec pulvinar. Porta vitae eiusmod ac porttitor rhoncus fringilla elit et congue diam dapibus. Posuere netus dictum bibendum do elementum senectus maecenas tincidunt elementum donec consectetur.</p>
+             
+             <p>Nibh phasellus volutpat nec faucibus eget sollicitudin est lobortis cras velit vulputate scelerisque sapien. Libero elementum semper lacinia etiam aliquam proin diam mi massa scelerisque iaculis. Nec justo imperdiet viverra proin sodales semper venenatis interdum et mi. Augue dapibus venenatis adipiscing aliquet sapien auctor nisl tempus. Tempor cursus arcu lacinia consectetur nisl libero sagittis magna sagittis do dictumst diam.</p>
+
         <div id="tcontainer">
-            <div id="sky"></div> 
-            <div id="grounds"></div>
-            <div id="tomb"></div> 
-                     
+            <div id="grounds" data-anchor-target="#tcontainer" data-350-top="top:90%;" data-40-top="top:-3%;"></div>
+            <div id="tomb" data-anchor-target="#tcontainer" data-350-top="top:-25%;" data-40-top="top:-39%;"></div> 
+            <div id="sky" data-anchor-target="#tcontainer" data-350-top="top:-50%;" data-40-top="top:-115%;"></div>            
         </div>
         
+        <p>Lorem ipsum dolor sit amet sodales enim fusce turpis odio faucibus id. Vestibulum auctor ornare dolore tortor congue pellentesque phasellus elementum eros aliqua ut senectus bibendum gravida. Mi non vitae etiam augue condimentum turpis blandit mauris tellus vitae faucibus. Do dapibus nullam lacinia fusce feugiat orci rhoncus netus auctor. Porta morbi semper venenatis consequat nullam semper mattis diam nisi risus.</p>
+
+           <p>< Sed sagittis consequat condimentum vivamus nisl donec integer neque donec elementum faucibus venenatis. Purus platea mattis proin quam duis dolore ullamcorper. Est consequat massa eleifend egestas dapibus curabitur vitae in proin nec pulvinar. Porta vitae eiusmod ac porttitor rhoncus fringilla elit et congue diam dapibus. Posuere netus dictum bibendum do elementum senectus maecenas tincidunt elementum donec consectetur.</p>
+            
+            <p>Nibh phasellus volutpat nec faucibus eget sollicitudin est lobortis cras velit vulputate scelerisque sapien. Libero elementum semper lacinia etiam aliquam proin diam mi massa scelerisque iaculis. Nec justo imperdiet viverra proin sodales semper venenatis interdum et mi. Augue dapibus venenatis adipiscing aliquet sapien auctor nisl tempus. Tempor cursus arcu lacinia consectetur nisl libero sagittis magna sagittis do dictumst diam.</p>
+
+            <p>Lorem ipsum dolor sit amet sodales enim fusce turpis odio faucibus id. Vestibulum auctor ornare dolore tortor congue pellentesque phasellus elementum eros aliqua ut senectus bibendum gravida. Mi non vitae etiam augue condimentum turpis blandit mauris tellus vitae faucibus. Do dapibus nullam lacinia fusce feugiat orci rhoncus netus auctor. Porta morbi semper venenatis consequat nullam semper mattis diam nisi risus.</p>
+
+           <p>< Sed sagittis consequat condimentum vivamus nisl donec integer neque donec elementum faucibus venenatis. Purus platea mattis proin quam duis dolore ullamcorper. Est consequat massa eleifend egestas dapibus curabitur vitae in proin nec pulvinar. Porta vitae eiusmod ac porttitor rhoncus fringilla elit et congue diam dapibus. Posuere netus dictum bibendum do elementum senectus maecenas tincidunt elementum donec consectetur.</p>
+            
+            <p>Nibh phasellus volutpat nec faucibus eget sollicitudin est lobortis cras velit vulputate scelerisque sapien. Libero elementum semper lacinia etiam aliquam proin diam mi massa scelerisque iaculis. Nec justo imperdiet viverra proin sodales semper venenatis interdum et mi. Augue dapibus venenatis adipiscing aliquet sapien auctor nisl tempus. Tempor cursus arcu lacinia consectetur nisl libero sagittis magna sagittis do dictumst diam.</p>
+            <p>Lorem ipsum dolor sit amet sodales enim fusce turpis odio faucibus id. Vestibulum auctor ornare dolore tortor congue pellentesque phasellus elementum eros aliqua ut senectus bibendum gravida. Mi non vitae etiam augue condimentum turpis blandit mauris tellus vitae faucibus. Do dapibus nullam lacinia fusce feugiat orci rhoncus netus auctor. Porta morbi semper venenatis consequat nullam semper mattis diam nisi risus.</p>
+
+           <p>< Sed sagittis consequat condimentum vivamus nisl donec integer neque donec elementum faucibus venenatis. Purus platea mattis proin quam duis dolore ullamcorper. Est consequat massa eleifend egestas dapibus curabitur vitae in proin nec pulvinar. Porta vitae eiusmod ac porttitor rhoncus fringilla elit et congue diam dapibus. Posuere netus dictum bibendum do elementum senectus maecenas tincidunt elementum donec consectetur.</p>
+            
+            <p>Nibh phasellus volutpat nec faucibus eget sollicitudin est lobortis cras velit vulputate scelerisque sapien. Libero elementum semper lacinia etiam aliquam proin diam mi massa scelerisque iaculis. Nec justo imperdiet viverra proin sodales semper venenatis interdum et mi. Augue dapibus venenatis adipiscing aliquet sapien auctor nisl tempus. Tempor cursus arcu lacinia consectetur nisl libero sagittis magna sagittis do dictumst diam.</p>
+            <p>Lorem ipsum dolor sit amet sodales enim fusce turpis odio faucibus id. Vestibulum auctor ornare dolore tortor congue pellentesque phasellus elementum eros aliqua ut senectus bibendum gravida. Mi non vitae etiam augue condimentum turpis blandit mauris tellus vitae faucibus. Do dapibus nullam lacinia fusce feugiat orci rhoncus netus auctor. Porta morbi semper venenatis consequat nullam semper mattis diam nisi risus.</p>
+
+           <p>< Sed sagittis consequat condimentum vivamus nisl donec integer neque donec elementum faucibus venenatis. Purus platea mattis proin quam duis dolore ullamcorper. Est consequat massa eleifend egestas dapibus curabitur vitae in proin nec pulvinar. Porta vitae eiusmod ac porttitor rhoncus fringilla elit et congue diam dapibus. Posuere netus dictum bibendum do elementum senectus maecenas tincidunt elementum donec consectetur.</p>
+            
+            <p>Nibh phasellus volutpat nec faucibus eget sollicitudin est lobortis cras velit vulputate scelerisque sapien. Libero elementum semper lacinia etiam aliquam proin diam mi massa scelerisque iaculis. Nec justo imperdiet viverra proin sodales semper venenatis interdum et mi. Augue dapibus venenatis adipiscing aliquet sapien auctor nisl tempus. Tempor cursus arcu lacinia consectetur nisl libero sagittis magna sagittis do dictumst diam.</p>
 
 
         
         <script src="" async defer></script>
+        <script type="text/javascript">var s = skrollr.init();</script>
     </body>
 </html>
